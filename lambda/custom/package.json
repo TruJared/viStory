@@ -1,0 +1,25 @@
+{
+  "name": "mikes-story",
+  "version": "1.0.0",
+  "description": "mike's story",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd ../../tests && node testflow.js",
+    "deploy": "cd ../../ && ask deploy -p \"voiceFocused\"",
+    "deploy-F": "cd ../../ && ask deploy --force -p \"voiceFocused\"",
+    "deploy-L": "cd ../../ && ask deploy --profile \"voiceFocused\" --target \"lambda\"",
+    "deploy-FL": "cd ../../ && ask deploy --force --profile \"voiceFocused\" --target \"lambda\"",
+    "trash": "rm -r node_modules && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.3.0",
+    "ask-sdk-model": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

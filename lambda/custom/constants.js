@@ -1,0 +1,47 @@
+const phrasePool = {
+  welcome: [
+    '<say-as interpret-as="interjection">Aloha</say-as>, welcome back! Let’s get started, yeah?',
+    '<say-as interpret-as="interjection">Bazinga</say-as>, welcome back! Ready to explore the FAQ demo?',
+    '<say-as interpret-as="interjection">Hip hip hooray</say-as> , Great to see you back! You ready to get to it?',
+    '<say-as interpret-as="interjection">Howdy</say-as> , Good to see you! Let’s begin ?',
+    '<say-as interpret-as="interjection">Oh boy</say-as> , here we go! Ready?',
+    '<say-as interpret-as="interjection">Spoiler alert</say-as> , this skill is awesome! Ready to get started?',
+  ],
+  menu: [
+    'You can try saying: ',
+    'You can say: ',
+    'Try saying: ',
+    'Some of the options are:',
+    'Here are some of the menu items',
+    'Here are some of the things you can say:',
+    'You can always try:',
+    'Might I suggest you try saying:',
+    'A few of the menu choices are:',
+    'Some menu choices you may want to try are:',
+    'Customers frequently use the following options:',
+    'How about trying: ',
+  ],
+  exit: [
+    '<say-as interpret-as="interjection">Arrivederci</say-as>',
+    '<say-as interpret-as="interjection">au revoir</say-as>',
+    '<say-as interpret-as="interjection">bon voyage</say-as>',
+    '<say-as interpret-as="interjection">cheerio</say-as>',
+    '<say-as interpret-as="interjection">cheers</say-as>',
+    'good-bye',
+    'Thanks for using voice focused insurance.',
+  ],
+  fallback: [
+    '<say-as interpret-as="interjection">Aw man</say-as>, I didn’t understand that request. Perhaps try phrasing it a different way',
+    '<say-as interpret-as="interjection">Blah</say-as> , I’m afraid I didn’t understand that. Can you try saying it differently ?',
+    '<say-as interpret-as="interjection">Blarg</say-as> , I didn’t quite catch that, say again ?',
+    '<say-as interpret-as="interjection">Blast</say-as> , I was totally spacing out and didn’t hear that. Can you repeat the request ?',
+    '<say-as interpret-as="interjection">Darn</say-as> , Totally missed that one. What did you ask me ?',
+    '<say-as interpret-as="interjection">D’oh</say-as> , Too busy dreaming about donuts, can you repeat that request ?',
+    '<say-as interpret-as="interjection">Good grief</say-as> , I have no idea what you’re asking. Let’s try this again.',
+    '<say-as interpret-as="interjection">Jeepers creepers</say-as> , You scared me!   What were we doing?',
+    '<say-as interpret-as="interjection">le sigh</say-as> , I know it’s frustrating when I don’t understand. Let’s see if we can’t get you the information you need.',
+    '<say-as interpret-as="interjection">ruh roh</say-as> , I didn’t really understand that. Maybe we can try something else? ',
+  ],
+};
+
+module.exports = { phrasePool };

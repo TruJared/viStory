@@ -1,0 +1,393 @@
+{
+  "passages": [
+    {
+      "text": "You have been hired by the local Lord to investigate what has caused production to cease at the nearby iron mine. You can stop at the local tavern to [[Gather Information]], Head [[To the Mine]], or stop at the [[General Goods Store]].",
+      "links": [
+        {
+          "name": "Gather Information",
+          "link": "Gather Information",
+          "pid": "2"
+        },
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        },
+        {
+          "name": "General Goods Store",
+          "link": "General Goods Store",
+          "pid": "3"
+        }
+      ],
+      "name": "Introduction",
+      "pid": "1",
+      "position": {
+        "x": "533",
+        "y": "78"
+      },
+      "tags": ["Start"]
+    },
+    {
+      "text": "Before you leave the village you stop at the Leaky Tap to see what information you can gather from the populace. After a few rounds you hear everything they're willing to impart from goblins to an evil cult of the apocalypse. You can [[Partake in Drinking Game]], [[Prepare for Goblins]], [[Prepare for Cult]].",
+      "links": [
+        {
+          "name": "Partake in Drinking Game",
+          "link": "Partake in Drinking Game",
+          "pid": "4"
+        },
+        {
+          "name": "Prepare for Goblins",
+          "link": "Prepare for Goblins",
+          "pid": "5"
+        },
+        {
+          "name": "Prepare for Cult",
+          "link": "Prepare for Cult",
+          "pid": "6"
+        }
+      ],
+      "name": "Gather Information",
+      "pid": "2",
+      "position": {
+        "x": "379",
+        "y": "18"
+      }
+    },
+    {
+      "text": "Sven greets you with a hearty \"Hello\" and asks what you're in the market for. You browse over the his goods and find a few pieces of gear you find suitable for your purposes. You have 7 coppers. You can [[Purchase Rope]] for 1 copper, [[Purchase Pick Axe]] for 6 copper, and [[Explosive Powder]] for 7 copper.",
+      "links": [
+        {
+          "name": "Purchase Rope",
+          "link": "Purchase Rope",
+          "pid": "7"
+        },
+        {
+          "name": "Purchase Pick Axe",
+          "link": "Purchase Pick Axe",
+          "pid": "8"
+        },
+        {
+          "name": "Explosive Powder",
+          "link": "Explosive Powder",
+          "pid": "9"
+        }
+      ],
+      "name": "General Goods Store",
+      "pid": "3",
+      "position": {
+        "x": "700",
+        "y": "19"
+      }
+    },
+    {
+      "text": "You've seen this group around town over the past few days and you know they're able to handle their alcohol but this is the first time they've challenged you to a game of endurance. Aelfryd, Ingram, and Leah all raise their tankards and slam them back. \n(Aelfryd rolls d3)\n(Ingram rolls d4)\n(Kristof rolls d8)\nIf:  Beat Aelfryd gain 1 copper. Aelfryd falls asleep at the table while the rest of his companions continue their game.\nIf:  Beat Ingram gain 1 gold. Ingram stands up and stumbles out of the Leaky Tap. Kristof smirks and continues the game.\nIf:  Beat Leah gain magical sword. Leah takes one more sip of her drink and realizes that you have bested her. She reaches to her side and lays her sword on the table. \"I entrust this to you. Please take care of whatever is in those mines.\" You recollect yourself before heading [[To the Mine]].\nIf:  Lose against any. Lose 3 copper. You collect your thoughts and your wits before you go [[To the Mine]].",
+      "links": [
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        },
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Partake in Drinking Game",
+      "pid": "4",
+      "position": {
+        "x": "137",
+        "y": "8"
+      }
+    },
+    {
+      "text": "With the knowledge of what awaits you in the mine you stop at the town's Adventurer's Guild to collect any information on any Goblin tribes that have harassed the town in the past. You find out that the leader of the tribe is named Vomitguts and has a fear of snakes. With this information you can [[Search for Snakes]] or go [[To the Mine]].",
+      "links": [
+        {
+          "name": "Search for Snakes",
+          "link": "Search for Snakes",
+          "pid": "12"
+        },
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Prepare for Goblins",
+      "pid": "5",
+      "position": {
+        "x": "202",
+        "y": "125"
+      }
+    },
+    {
+      "text": "With your belief that an apocalypse cult is responsible for halting producting at the iron mine you head to the local temple. Father Beleford hasn't heard of any cult being active in the area and suggests that it's most likely just nonsense the peasants are spreading. Disappointed but not surprised that this was a dead end you go [[To the Mine]].",
+      "links": [
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Prepare for Cult",
+      "pid": "6",
+      "position": {
+        "x": "294",
+        "y": "384"
+      }
+    },
+    {
+      "text": "Sven asks \"Is there anything else I can get for you?\" You look over the remaining goods and contemplate. You have 6 coppers. You can  [[Spend Remaining Copper]] on the pick axe or head [[To the Mine]].",
+      "links": [
+        {
+          "name": "Spend Remaining Copper",
+          "link": "Spend Remaining Copper",
+          "pid": "11"
+        },
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Purchase Rope",
+      "pid": "7",
+      "position": {
+        "x": "925",
+        "y": "401"
+      }
+    },
+    {
+      "text": "Sven asks \"Is there anything else I can get for you?\" You look over the remaining goods and contemplate. You have 1 copper. You can [[Spend Remaining Copper]] on the rope or head [[To the Mine]].",
+      "links": [
+        {
+          "name": "Spend Remaining Copper",
+          "link": "Spend Remaining Copper",
+          "pid": "11"
+        },
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Purchase Pick Axe",
+      "pid": "8",
+      "position": {
+        "x": "932",
+        "y": "123"
+      }
+    },
+    {
+      "text": "You hand Sven your copper pieces and he wishes you luck as you make your way [[To the Mine]] with your explosive powder.",
+      "links": [
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Explosive Powder",
+      "pid": "9",
+      "position": {
+        "x": "1046",
+        "y": "7"
+      }
+    },
+    {
+      "text": "You travel for several hours and arrive at the entrance to the mine. You're familiar with putting your life at risk to help those around you but every time there's a familiar sense of fear. Do you [[Approach Confidently]], [[Approach Cautiously]], or [[Listen and then Approach]].",
+      "links": [
+        {
+          "name": "Approach Confidently",
+          "link": "Approach Confidently",
+          "pid": "13"
+        },
+        {
+          "name": "Approach Cautiously",
+          "link": "Approach Cautiously",
+          "pid": "14"
+        },
+        {
+          "name": "Listen and then Approach",
+          "link": "Listen and then Approach",
+          "pid": "18"
+        }
+      ],
+      "name": "To the Mine",
+      "pid": "10",
+      "position": {
+        "x": "503",
+        "y": "232"
+      }
+    },
+    {
+      "text": "Sven hands you your rope and pick axe and wishes you luck as you leave [[To the Mine]].",
+      "links": [
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Spend Remaining Copper",
+      "pid": "11",
+      "position": {
+        "x": "1155",
+        "y": "265"
+      }
+    },
+    {
+      "text": "With your newfound information that Vomitguts is horrified of snakes you spend a few hours hunting for snakes to bring with you to the mines. With some time spend and some small scrapes and bruises you are now ready to go [[To the Mine]].",
+      "links": [
+        {
+          "name": "To the Mine",
+          "link": "To the Mine",
+          "pid": "10"
+        }
+      ],
+      "name": "Search for Snakes",
+      "pid": "12",
+      "position": {
+        "x": "52",
+        "y": "236"
+      }
+    },
+    {
+      "text": "You walk into the entrance abandoning all caution. Unfortunately, you should have been more careful as you stepped directly on a trap. At the last second you hear the metallic click of a spring and a log comes barreling at you. You can [[Dodge to the Side]], [[Fall Prone]], or [[Run Away]].",
+      "links": [
+        {
+          "name": "Dodge to the Side",
+          "link": "Dodge to the Side",
+          "pid": "15"
+        },
+        {
+          "name": "Fall Prone",
+          "link": "Fall Prone",
+          "pid": "16"
+        },
+        {
+          "name": "Run Away",
+          "link": "Run Away",
+          "pid": "17"
+        }
+      ],
+      "name": "Approach Confidently",
+      "pid": "13",
+      "position": {
+        "x": "25",
+        "y": "375"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it. [[End]]",
+      "links": [
+        {
+          "name": "End",
+          "link": "End",
+          "pid": "20"
+        }
+      ],
+      "name": "Approach Cautiously",
+      "pid": "14",
+      "position": {
+        "x": "597",
+        "y": "399"
+      }
+    },
+    {
+      "text": "You attempt to hug the wall and avoid the log. Unfortunately there isn't as much room as you had hoped for and the log slams right into your knee. There is a sick crunching noise as you're sure your knee is smashed to pieces but you manage to recollect yourself and limp [[Deeper into the Mine]].",
+      "links": [
+        {
+          "name": "Deeper into the Mine",
+          "link": "Deeper into the Mine",
+          "pid": "19"
+        }
+      ],
+      "name": "Dodge to the Side",
+      "pid": "15",
+      "position": {
+        "x": "44",
+        "y": "745"
+      }
+    },
+    {
+      "text": "With quick thinking and quick footwork you immediately lay prone underneath the path of the log. You feel it scrape against your back but it could be worse. After a few moments you stand up and push the log aside and travel [[Deeper into the Mine]].",
+      "links": [
+        {
+          "name": "Deeper into the Mine",
+          "link": "Deeper into the Mine",
+          "pid": "19"
+        }
+      ],
+      "name": "Fall Prone",
+      "pid": "16",
+      "position": {
+        "x": "156",
+        "y": "607"
+      }
+    },
+    {
+      "text": "So much for confidence! You immediately turn tail and attempt to run away from the speeding log. At the entrance you trip and sprain your ankle convinced that this is how you finally meet your end... But you feel the air displaced as the air swings over you several times. You get up, brush yourself off, and limp [[Deeper into the Mine]].",
+      "links": [
+        {
+          "name": "Deeper into the Mine",
+          "link": "Deeper into the Mine",
+          "pid": "19"
+        }
+      ],
+      "name": "Run Away",
+      "pid": "17",
+      "position": {
+        "x": "299",
+        "y": "500"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it. [[End]]",
+      "links": [
+        {
+          "name": "End",
+          "link": "End",
+          "pid": "20"
+        }
+      ],
+      "name": "Listen and then Approach",
+      "pid": "18",
+      "position": {
+        "x": "798",
+        "y": "499"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it. [[End]]",
+      "links": [
+        {
+          "name": "End",
+          "link": "End",
+          "pid": "20"
+        }
+      ],
+      "name": "Deeper into the Mine",
+      "pid": "19",
+      "position": {
+        "x": "525",
+        "y": "750"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "End",
+      "pid": "20",
+      "position": {
+        "x": "455",
+        "y": "497"
+      }
+    }
+  ],
+  "name": "Mine Story",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.2.1",
+  "ifid": "45407FAE-4365-4B3C-993B-263F7D77364E"
+}

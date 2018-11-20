@@ -1,0 +1,24 @@
+#LaunchRequest
+#AMAZON.YesIntent
+#AMAZON.YesIntent
+#CustomerServiceIntent
+#AMAZON.YesIntent
+#MenuIntent
+#PayBillIntent
+#RentalsIntent
+#ContactIntent
+#DiscountsIntent#
+#GetIdIntent
+#AMAZON.RepeatIntent
+#AMAZON.NoIntent
+#AMAZON.YesIntent
+#AMAZON.CancelIntent
+#PasswordRecoverIntent
+#PriceIntent
+#FileClaimIntent
+#? GetMeaningIntent term=full
+MenuIntent
+MenuIntent
+MenuIntent
+MenuIntent
+MenuIntent
